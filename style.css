@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important; */
+  padding: 0 20px;
+}
+:root {
+  --primary: #0C8281;
+  --secondary: #1B8A89;
+  --blue-light: #D9D9D9;
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #d8d8d8;
+  --gray-light: #e3e8eb;
+  --dark-gray: #00271e;
+  --red: #fe0000;
+  --main-color: #619741;
+  --fs-1: 40px;
+  --fs-2: 25px;
+  --fs-3: 20px;
+  --fs-4: 18px;
+  --transition3: 0.3s ease-in-out;
+}
+/* mean-div section start  */
+.mean-div {
+  background-color: var(--white);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+.mean-logo img {
+  width: 115px;
+  height: 75px;
+}
+.mean-list ul li {
+  display: inline-block;
+  list-style: none;
+}
+.mean-list ul li a {
+  text-decoration: none;
+  color: var(--black);
+  padding: 10px 16px;
+}
+.mean-button {
+  color: var(--white);
+  background-color: var(--primary);
+  margin-inline-start: auto;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+/* mean section end  */
+/* banner section start  */
+.banner-section {
+  background-image: url(images/banner/page-title\ 1.png);
+  height: 456px;
+  width: 100%;
+  color: var(--white);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner-title-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 170px;
+  position: absolute;
+}
+.banner-title-2 img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.banner-title h1 {
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 30px;
+}
+
+/* banner section end  */
+/* this is about section start */
+.about-mean-section {
+  display: flex;
+  margin-top: 40px;
+}
+.about {
+  display: flex;
+  gap: 0px;
+  margin: 20px;
+}
+.about-title-one {
+  margin: 40px;
+  font-size: 18px;
+  position: relative;
+  margin-top: 40px;
+  line-height: 55px;
+}
+.about-title h3,
+p {
+  margin: 20px;
+  line-height: 18px;
+}
+.about-icon {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.about-icon img {
+  margin-left: 10px;
+}
+.about-left {
+  width: 50%;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+.about-us {
+  color: var(--primary);
+  margin: 25px;
+}
+.about-us::after {
+  position: absolute;
+  content: "";
+  padding-right: 8px;
+  width: 110px;
+  height: 1px;
+  top: 43px;
+  background-color: var(--primary);
+  margin-left: -114px;
+}
+/* about section end  */
+/* services section start  */
+.servies-section {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+.services-img {
+  width: 50%;
+}
+.services-title {
+  width: 50%;
+  background-color: var(--primary);
+  color: var(--white);
+  margin-top: -50px;
+}
+.services-title h3,h1,p{
+  margin: 25px;
+}
+.services-img img {
+  width: 100%;
+}
+.services-text {
+  display: flex;
+  gap: 10px;
+  margin: 28px;
+  font-size: 20px;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.services {
+  display: flex;
+  margin-top: 40px;
+}
+.services-text2 {
+  gap: 33px;
+  margin-left: 135px;
+}
+.services-icon {
+  gap: 22px;
+}
+/* services section end  */
+/* career section start  */
+.carrer-mean-section{
+  padding-top: 60px;
+}
+.career1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.career{
+  text-align: center;
+  color: var(--primary);
+}
+.container{
+  position: relative;
+}
+.career::after {
+  position: absolute;
+  content: "";
+  padding-right: 27px;
+  width: 100px;
+  height: 1px;
+  top: 93px;
+  background-color: var(--primary);
+  margin-left: -133px;
+}
+.career-title {
+  display: flex;
+  background-color: var(--primary);
+  padding: 10px;
+  gap: 90px;
+  color: white;
+  position: relative;
+  margin: 25px;
+  width: 253px;
+  height: 110px;
+  margin-top: 50px;
+}
+/* this is carear section before section start  */
+
+.career-title::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0px;
+  border-top: 60px solid transparent;
+  border-left: 51px solid var(--primary);
+  border-bottom: 50px solid transparent;
+  margin-left: 242px;
+  margin-top: -10px;
+}
+/* beore section end  */
+.career-title h3,i{
+  font-size: 30px; */
+}
+
+.career-section {
+  display: flex;
+  gap: 20px;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary);
+  color: white;
+  height: 165px;
+  vertical-align: middle;
+  margin-top: 70px;
+}
+.contact {
+  margin-top: 60px;
+  font-size: 22px;
+}
+.number{
+  margin-top: 50px;
+  font-size: 22px;
+}
+/* this is numver section end  */
+/* this is contact section start  */
+.contact-img{
+  margin-top: 50px;
+}
+.contact-mail{
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+.about-company-contacts{
+  background-color: var(--primary);
+  height: 367px;
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.contact-left{
+  width:50%;
+}
+.contacts{
+  color: var(--white);
+  text-align: justify;
+  margin: 10px;
+  font-size: 18px;
+}
+.contacts h2 {
+  margin-left: 25px;
+}
+/* contact section end  */
+/* this is company section start  */
+.company-right{
+  width: 50%;
+}
+.company{
+  color: var(--white);
+  text-align: justify;
+  margin: 16px;
+  font-size: 18px;
+}
+.company-img{
+  margin-left: 20px;
+}
+.company-img img{
+  margin: 5px;
+}
